@@ -21,7 +21,6 @@ public final class DBManager {
         //Connect to DB
         // _con = getMsAccessConnection();
         _con = getMySQLConnection();
-        //_con = getFirebirdDBConnection();
     }
 
     //Thread safe instatiate method
@@ -37,27 +36,12 @@ public final class DBManager {
     }
 
     /**
-    * Connection to SQLServer Database
-    */
-    private static Connection getSQLServerConnection() {
-        Connection con = null;
-        try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            String URL =
-            "jdbc:sqlserver://localhost;databaseName=NID;user=sa;password=123;";
-            con = DriverManager.getConnection(URL);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-        return con;
-    }
-
-    /**
     * Connection to MySQL Database
     */
     private static Connection getMySQLConnection() {
         Connection con = null;
         try {
+            // Change this data according to your own machine's configuration
             String DB_URL = "jdbc:mysql://127.0.0.1/Province";
             String USER = "root";
             String PASS = "";
@@ -78,27 +62,11 @@ public final class DBManager {
         Connection con = null;
         try {
             Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-            con=DriverManager.getConnection("jdbc:ucanaccess://C:/Users/Alejandro/Desktop/Province.mdb");
+            // Here you will write the directory where you place the db file
+            con=DriverManager.getConnection(
+                    "jdbc:ucanaccess://C:/Users/Alejandro/Desktop/Province.mdb");
         } catch (Exception se) {
             System.out.println(se);
-        }
-        return con;
-    }
-
-    private static Connection getFirebirdDBConnection() {
-        Connection con = null;
-        try {
-            Class.forName("org.firebirdsql.jdbc.FBDriver");
-            con = DriverManager.getConnection("jdbc:firebirdsql://localhost:3050/D:/Programacion/mars/RMIServerSide/PROVINCE.FDB", "SYSDBA", "masterkey");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        finally {
-            try {
-                con.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
         }
         return con;
     }

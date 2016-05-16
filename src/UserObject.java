@@ -15,7 +15,7 @@ import java.util.ArrayList;
 * Server object
 *
 */
-public class ProvinceObject extends UnicastRemoteObject implements IRemoteProvince {
+public class UserObject extends UnicastRemoteObject implements IRemoteUser {
 
     /**
     *
@@ -23,61 +23,61 @@ public class ProvinceObject extends UnicastRemoteObject implements IRemoteProvin
 
     private static final long serialVersionUID = 11L;
 
-    public ProvinceObject() throws RemoteException {
+    public UserObject() throws RemoteException {
         super();
     }
 
-    public int save(Province p) {
+    public int saveUser(User u) {
         try {
-            System.out.println("Invoke save from " + getClientHost());
+            System.out.println("Invoke saveUser from " + getClientHost());
         } catch (ServerNotActiveException snae) {
             snae.printStackTrace();
         }
-        return ProvinceRepository.save(p);
+        return UserRepository.save(u);
     }
 
-    public int update(Province p) {
+    public int updateUser(User u) {
         try {
-            System.out.println("Invoke update from " + getClientHost());
+            System.out.println("Invoke updateUser from " + getClientHost());
         } catch (ServerNotActiveException snae) {
             snae.printStackTrace();
         }
-        return ProvinceRepository.update(p);
+        return UserRepository.update(u);
     }
 
-    public int delete(Province p) {
+    public int deleteUser(User u) {
         try {
-            System.out.println("Invoke delete from " + getClientHost());
+            System.out.println("Invoke deleteUser from " + getClientHost());
         } catch (ServerNotActiveException snae) {
             snae.printStackTrace();
         }
-        return ProvinceRepository.delete(p);
+        return UserRepository.delete(u);
     }
 
-    public void deleteAll() {
+    public void deleteAllUsers() {
         try {
-            System.out.println("Invoke deleteAll from " + getClientHost());
+            System.out.println("Invoke deleteAllUsers from " + getClientHost());
         } catch (ServerNotActiveException snae) {
             snae.printStackTrace();
         }
-        ProvinceRepository.deleteAll();
+        UserRepository.deleteAll();
     }
 
-    public ArrayList findAll() {
+    public ArrayList findAllUsers() {
         try {
-            System.out.println("Invoke findAll from " + getClientHost());
+            System.out.println("Invoke findAllUsers from " + getClientHost());
         } catch (ServerNotActiveException snae) {
             snae.printStackTrace();
         }
-        return ProvinceRepository.findAll();
+        return UserRepository.findAll();
     }
 
-    public ArrayList findByName(String criteria) {
+    public ArrayList findUserByName(String criteria) {
         try {
-            System.out.println("Invoke findByName from " + getClientHost());
+            System.out.println("Invoke findUserByName from " + getClientHost());
         } catch (ServerNotActiveException snae) {
             snae.printStackTrace();
         }
-        return ProvinceRepository.findByName(criteria);
+        return UserRepository.findByName(criteria);
     }
 }

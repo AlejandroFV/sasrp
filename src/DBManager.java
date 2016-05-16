@@ -42,7 +42,7 @@ public final class DBManager {
         Connection con = null;
         try {
             // Change this data according to your own machine's configuration
-            String DB_URL = "jdbc:mysql://127.0.0.1/Province";
+            String DB_URL = "jdbc:mysql://127.0.0.1/theater";
             String USER = "root";
             String PASS = "";
             con = DriverManager.getConnection(DB_URL, USER, PASS);

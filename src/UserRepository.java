@@ -11,19 +11,18 @@ import java.util.*;
  * @author Alejandro
  */
 /**
-* ProvinceRepository: data accessor
+* UserRepository: data accessor
 *
 */
-public class ProvinceRepository {
-    public static int save(Province p) {
+public class UserRepository {
+    public static int save(User u) {
         int iRet = -1;
         try {
             Connection con = DBManager.getInstance().getConnection();
-            String SQL = "INSERT INTO Province (Id, ShortName, Name) values(?,?,?)";
+            String SQL = "INSERT INTO tbl_user (first_name, last_name) values(?,?)";
             PreparedStatement pstmt = con.prepareStatement(SQL);
-            pstmt.setInt(1, p.getId());
-            pstmt.setString(2, p.getShortName());
-            pstmt.setString(3, p.getName());
+            pstmt.setString(1, u.getFirstName());
+            pstmt.setString(2, u.getLastName());
             iRet = pstmt.executeUpdate();
             pstmt.close();
         } catch (SQLException se) {
@@ -32,15 +31,15 @@ public class ProvinceRepository {
         return iRet;
     }
 
-    public static int update(Province p) {
+    public static int update(User u) {
         int iRet = -1;
         try {
             Connection con = DBManager.getInstance().getConnection();
-            String SQL = "UPDATE Province SET ShortName=?, Name=? WHERE Id=?";
+            String SQL = "UPDATE tbl_user SET first_name=?, last_name=? WHERE id=?";
             PreparedStatement pstmt = con.prepareStatement(SQL);
-            pstmt.setString(1, p.getShortName());
-            pstmt.setString(2, p.getName());
-            pstmt.setInt(3, p.getId());
+            pstmt.setString(1, u.getFirstName());
+            pstmt.setString(2, u.getLastName());
+            pstmt.setInt(3, u.getId());
             iRet = pstmt.executeUpdate();
             pstmt.close();
         } catch (SQLException se) {
@@ -48,14 +47,14 @@ public class ProvinceRepository {
         }
         return iRet;
     }
-
-    public static int delete(Province p) {
+    
+    public static int delete(User u) {
         int iRet = -1;
         try {
             Connection con = DBManager.getInstance().getConnection();
-            String SQL = "DELETE FROM Province WHERE Id=?";
+            String SQL = "DELETE FROM tbl_user WHERE id=?";
             PreparedStatement pstmt = con.prepareStatement(SQL);
-            pstmt.setInt(1, p.getId());
+            pstmt.setInt(1, u.getId());
             iRet = pstmt.executeUpdate();
             pstmt.close();
         } catch (SQLException se) {
@@ -68,7 +67,7 @@ public class ProvinceRepository {
         Connection con = DBManager.getInstance().getConnection();
         try {
             con.setAutoCommit(false);
-            String SQL = "DELETE FROM Province";
+            String SQL = "DELETE FROM tbl_user";
             PreparedStatement pstmt = con.prepareStatement(SQL);
             pstmt.executeUpdate();
             con.commit();
@@ -88,16 +87,16 @@ public class ProvinceRepository {
     public static ArrayList findAll() {
         ArrayList arr = new ArrayList();
         try {
-            String QRY = "SELECT * FROM Province ORDER BY Id";
+            String QRY = "SELECT * FROM tbl_user ORDER BY id";
             Connection con = DBManager.getInstance().getConnection();
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(QRY);
             while (rs.next()) {
-                Province p = new Province();
-                p.setId(rs.getInt("Id"));
-                p.setShortName(rs.getString("ShortName"));
-                p.setName(rs.getString("Name"));
-                arr.add(p);
+                User u = new User();
+                u.setId(rs.getInt("id"));
+                u.setFirstName(rs.getString("first_name"));
+                u.setLastName(rs.getString("last_name"));
+                arr.add(u);
             }
             stmt.close();
         } catch (SQLException se) {
@@ -109,17 +108,18 @@ public class ProvinceRepository {
     public static ArrayList findByName(String name) {
         ArrayList arr = new ArrayList();
         try {
-            String QRY = "SELECT * FROM Province WHERE name LIKE(?) ORDER BY id";
+            String QRY = "SELECT * FROM tbl_user WHERE first_name LIKE(?) OR"
+                    + "last_name LIKE(?) ORDER BY id";
             Connection con = DBManager.getInstance().getConnection();
             PreparedStatement pstmt = con.prepareStatement(QRY);
             pstmt.setString(1, "%" + name + "%");
             ResultSet rs = pstmt.executeQuery();
             while (rs.next()) {
-                Province p = new Province();
-                p.setId(rs.getInt("Id"));
-                p.setShortName(rs.getString("ShortName"));
-                p.setName(rs.getString("Name"));
-                arr.add(p);
+                User u = new User();
+                u.setId(rs.getInt("id"));
+                u.setFirstName(rs.getString("first_name"));
+                u.setLastName(rs.getString("last_name"));
+                arr.add(u);
             }
             pstmt.close();
         } catch (SQLException se) {

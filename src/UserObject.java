@@ -72,12 +72,12 @@ public class UserObject extends UnicastRemoteObject implements IRemoteUser {
         return UserRepository.findAll();
     }
 
-    public ArrayList findUserByName(String criteria) {
+    public ArrayList findUserByName(String firstName, String lastName) {
         try {
             System.out.println("Invoke findUserByName from " + getClientHost());
         } catch (ServerNotActiveException snae) {
             snae.printStackTrace();
         }
-        return UserRepository.findByName(criteria);
+        return UserRepository.findByName(firstName, lastName);
     }
 }

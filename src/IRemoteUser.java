@@ -22,5 +22,5 @@ public interface IRemoteUser extends Remote {
 
     public ArrayList findAllUsers() throws RemoteException;
     
-    public ArrayList findUserByName(String criteria) throws RemoteException;
+    public ArrayList findUserByName(String firstName, String lastName) throws RemoteException;
 }

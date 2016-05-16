@@ -105,14 +105,14 @@ public class UserRepository {
         return arr;
     }
     
-    public static ArrayList findByName(String name) {
+    public static ArrayList findByName(String firstName, String lastName) {
         ArrayList arr = new ArrayList();
         try {
-            String QRY = "SELECT * FROM tbl_user WHERE first_name LIKE(?) OR"
-                    + "last_name LIKE(?) ORDER BY id";
+            String QRY = "SELECT * FROM tbl_user WHERE first_name LIKE(?) && last_name LIKE(?) ORDER BY id";
             Connection con = DBManager.getInstance().getConnection();
             PreparedStatement pstmt = con.prepareStatement(QRY);
-            pstmt.setString(1, "%" + name + "%");
+            pstmt.setString(1, "%" + firstName + "%");
+            pstmt.setString(2, "%" + lastName + "%");
             ResultSet rs = pstmt.executeQuery();
             while (rs.next()) {
                 User u = new User();

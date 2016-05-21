@@ -75,7 +75,7 @@ public class SeatRepository {
             String QRY = "SELECT * FROM tbl_seat WHERE name LIKE(?) ORDER BY id";
             Connection con = DBManager.getInstance().getConnection();
             PreparedStatement pstmt = con.prepareStatement(QRY);
-            pstmt.setString(1, "%" + name + "%");
+            pstmt.setString(1, name);
             ResultSet rs = pstmt.executeQuery();
             while (rs.next()) {
                 Seat s = new Seat();

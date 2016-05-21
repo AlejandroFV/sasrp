@@ -22,9 +22,11 @@ public class Server {
             //Instantiate server object
             SeatObject so = new SeatObject();
             UserObject uo = new UserObject();
+            ReservationObject ro = new ReservationObject();
             //Register server object
             registry.rebind("Seat", so);
             registry.rebind("User", uo);
+            registry.rebind("Reservation", ro);
             System.out.println("Server is created!!!");
         } catch (Exception e) {
             System.out.println(e);

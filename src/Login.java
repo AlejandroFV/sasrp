@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
  * @author Alejandro
  */
 public class Login extends javax.swing.JFrame {
-
+    
     /**
      * Creates new form Login
      */
@@ -134,13 +134,20 @@ public class Login extends javax.swing.JFrame {
             }
             if (firstNameField.getText().equalsIgnoreCase(firstName) &&
                     lastNameField.getText().equalsIgnoreCase(lastName)) {
-                System.out.println("Everything OK");
+                JOptionPane.showMessageDialog(rootPane, "Iniciando sesión como: "
+                        + firstName + " " + lastName,
+                            "Login", JOptionPane.INFORMATION_MESSAGE);
+                dispose();
+                SeatSelection seatSelectionForm = new SeatSelection(
+                        firstNameField.getText(), lastNameField.getText());
+                seatSelectionForm.setVisible(true);
             } else {
                 JOptionPane.showMessageDialog(rootPane, "Usuario incorrecto",
                         "Error", JOptionPane.ERROR_MESSAGE);
             }
         } catch (Exception e) {
             System.out.println(e);
+            e.printStackTrace();
         }
     }//GEN-LAST:event_loginButtonActionPerformed
 
@@ -193,11 +200,11 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton exitButton;
-    private javax.swing.JTextField firstNameField;
+    protected javax.swing.JTextField firstNameField;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JTextField lastNameField;
+    protected javax.swing.JTextField lastNameField;
     private javax.swing.JButton loginButton;
     private javax.swing.JButton registerFormButton;
     // End of variables declaration//GEN-END:variables

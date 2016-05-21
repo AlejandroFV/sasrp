@@ -159,6 +159,10 @@ public class Register extends javax.swing.JFrame {
                     ru.saveUser(user);
                     JOptionPane.showMessageDialog(rootPane, "Usuario guardado",
                             "Operación exitosa", JOptionPane.INFORMATION_MESSAGE);
+                    dispose();
+                    SeatSelection seatSelectionForm = new SeatSelection(
+                            firstNameField.getText(), lastNameField.getText());
+                    seatSelectionForm.setVisible(true);
                 }
             }
         } catch (Exception e) {

@@ -200,11 +200,11 @@ public class Login extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton exitButton;
-    protected javax.swing.JTextField firstNameField;
+    private javax.swing.JTextField firstNameField;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    protected javax.swing.JTextField lastNameField;
+    private javax.swing.JTextField lastNameField;
     private javax.swing.JButton loginButton;
     private javax.swing.JButton registerFormButton;
     // End of variables declaration//GEN-END:variables

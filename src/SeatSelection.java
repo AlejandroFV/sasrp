@@ -3,6 +3,7 @@ import java.awt.Color;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
@@ -19,6 +20,7 @@ import javax.swing.UIManager;
 public class SeatSelection extends javax.swing.JFrame {
     private static String userFirstName;
     private static String userLastName;
+    private static LinkedList reservedSeats = new LinkedList();
     
     /**
      * Creates new form SeatSelection
@@ -151,6 +153,7 @@ public class SeatSelection extends javax.swing.JFrame {
                 rr.saveReservation(reservation);
                 button.setBackground(Color.BLACK);
                 button.setSelected(true);
+                manageReservedSeatsLimit(button);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -179,10 +182,51 @@ public class SeatSelection extends javax.swing.JFrame {
                 rr.deleteReservation(reservation);
                 button.setBackground(Color.GREEN);
                 button.setSelected(false);
+                manageReservedSeatsLimit(button);
             } catch (Exception e) {
                 e.printStackTrace();
             }
             return;
+        }
+    }
+    
+    private static void manageReservedSeatsLimit(javax.swing.JToggleButton button) {
+        if (button.getBackground() == Color.GREEN) {
+            reservedSeats.remove(button);
+        } else if (button.getBackground() == Color.BLACK) {
+            if (reservedSeats.size() < 5) {
+                reservedSeats.add(button);
+            } else {
+                try {
+                    javax.swing.JToggleButton topButton =
+                            (javax.swing.JToggleButton) reservedSeats.getFirst();
+                    Registry registry = LocateRegistry.getRegistry("127.0.0.1");
+                    IRemoteSeat rs = (IRemoteSeat) registry.lookup("Seat");
+                    IRemoteReservation rr = (IRemoteReservation) registry.lookup("Reservation");
+                    IRemoteUser ru = (IRemoteUser) registry.lookup("User");
+                    ArrayList <User> arrUser = ru.findUserByName(userFirstName,
+                            userLastName);
+                    int userID = 0;
+                    for (User u : arrUser) {
+                        userID = u.getId();
+                    }
+                    ArrayList <Seat> arrSeat = rs.findSeatByName(topButton.getText());
+                    int seatID = 0;
+                    for (Seat s : arrSeat) {
+                        seatID = s.getId();
+                    }
+                    Seat reservedSeat = new Seat(topButton.getText(), "available");
+                    rs.updateSeat(reservedSeat);
+                    Reservation reservation = new Reservation(userID, seatID);
+                    rr.deleteReservation(reservation);
+                    topButton.setBackground(Color.GREEN);
+                    topButton.setSelected(false);
+                    reservedSeats.removeFirst();
+                    reservedSeats.add(button);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
         }
     }
 

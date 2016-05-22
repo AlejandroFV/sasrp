@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `tbl_reservation` (
   `user_id` int(11) NOT NULL,
   `seat_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `user_id` (`user_id`),
+  KEY `user_id` (`user_id`),
   UNIQUE KEY `seat_id` (`seat_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 

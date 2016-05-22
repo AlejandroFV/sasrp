@@ -16,8 +16,8 @@ import javax.swing.UIManager;
  * @author Alejandro
  */
 public class SeatSelection extends javax.swing.JFrame {
-    private String userFirstName;
-    private String userLastName;
+    private static String userFirstName;
+    private static String userLastName;
     
     /**
      * Creates new form SeatSelection
@@ -59,18 +59,44 @@ public class SeatSelection extends javax.swing.JFrame {
             IRemoteSeat rs = (IRemoteSeat) registry.lookup("Seat");
             ArrayList <Seat> arrSeat = rs.findSeatByName(button.getLabel());
             System.out.print(button.getLabel());
+            int id = 0;
             String status = null;
             for (Seat s : arrSeat) {
+                id = s.getId();
                 status = s.getStatus();
                 System.out.println(" - " + status);
             }
-            if (status.equals("available")) {
-                button.setBackground(Color.green);
-            } else {
-                button.setBackground(Color.red);
+            switch (status) {
+                case "available":
+                    button.setBackground(Color.GREEN);
+                    break;
+                case "reserved":
+                    IRemoteReservation rr = (IRemoteReservation) registry.lookup("Reservation");
+                    IRemoteUser ru = (IRemoteUser) registry.lookup("User");
+                    ArrayList <Reservation> arrRes = rr.findReservationBySeatID(id);
+                    int userID = 0;
+                    for (Reservation r : arrRes) {
+                        userID = r.getUserID();
+                    }
+                    ArrayList <User> arrUser = ru.findUserByID(userID);
+                    String firstName = null;
+                    String lastName = null;
+                    for (User u : arrUser) {
+                        firstName = u.getFirstName();
+                        lastName = u.getLastName();
+                    }
+                    if (firstName.equals(userFirstName) && lastName.equals(userLastName)) {
+                        button.setBackground(Color.BLACK);
+                    } else {
+                        button.setBackground(Color.RED);
+                    }
+                    break;
+                case "in-process":
+                    button.setBackground(Color.BLUE);
+                    break;
             }
         } catch (Exception e) {
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 

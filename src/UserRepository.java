@@ -105,6 +105,28 @@ public class UserRepository {
         return arr;
     }
     
+    public static ArrayList findByID(int id) {
+        ArrayList arr = new ArrayList();
+        try {
+            String QRY = "SELECT * FROM tbl_user WHERE id = ?";
+            Connection con = DBManager.getInstance().getConnection();
+            PreparedStatement pstmt = con.prepareStatement(QRY);
+            pstmt.setInt(1, id);
+            ResultSet rs = pstmt.executeQuery();
+            while (rs.next()) {
+                User u = new User();
+                u.setId(rs.getInt("id"));
+                u.setFirstName(rs.getString("first_name"));
+                u.setLastName(rs.getString("last_name"));
+                arr.add(u);
+            }
+            pstmt.close();
+        } catch (SQLException se) {
+            System.out.println(se);
+        }
+        return arr;
+    }
+    
     public static ArrayList findByName(String firstName, String lastName) {
         ArrayList arr = new ArrayList();
         try {

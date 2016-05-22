@@ -35,7 +35,7 @@ public class SeatSelection extends javax.swing.JFrame {
         paintAllSeats();
     }
     
-    public static void paintAllSeats() {
+    private static void paintAllSeats() {
         javax.swing.JToggleButton[] seats =
         {a1Button, a2Button, a3Button, a4Button, a5Button, a6Button, a7Button, a8Button, a9Button, a10Button, 
         b1Button, b2Button, b3Button, b4Button, b5Button, b6Button, b7Button, b8Button, b9Button, b10Button, 
@@ -53,7 +53,7 @@ public class SeatSelection extends javax.swing.JFrame {
         }
     }
     
-    public static void paintSeat(javax.swing.JToggleButton button) {
+    private static void paintSeat(javax.swing.JToggleButton button) {
         try {            
             Registry registry = LocateRegistry.getRegistry("127.0.0.1");
             IRemoteSeat rs = (IRemoteSeat) registry.lookup("Seat");
@@ -66,25 +66,25 @@ public class SeatSelection extends javax.swing.JFrame {
                 status = s.getStatus();
                 System.out.println(" - " + status);
             }
+            IRemoteReservation rr = (IRemoteReservation) registry.lookup("Reservation");
+            IRemoteUser ru = (IRemoteUser) registry.lookup("User");
+            ArrayList <Reservation> arrRes = rr.findReservationBySeatID(id);
+            int userID = 0;
+            for (Reservation r : arrRes) {
+                userID = r.getUserID();
+            }
+            ArrayList <User> arrUser = ru.findUserByID(userID);
+            String firstName = null;
+            String lastName = null;
+            for (User u : arrUser) {
+                firstName = u.getFirstName();
+                lastName = u.getLastName();
+            }
             switch (status) {
                 case "available":
                     button.setBackground(Color.GREEN);
                     break;
                 case "reserved":
-                    IRemoteReservation rr = (IRemoteReservation) registry.lookup("Reservation");
-                    IRemoteUser ru = (IRemoteUser) registry.lookup("User");
-                    ArrayList <Reservation> arrRes = rr.findReservationBySeatID(id);
-                    int userID = 0;
-                    for (Reservation r : arrRes) {
-                        userID = r.getUserID();
-                    }
-                    ArrayList <User> arrUser = ru.findUserByID(userID);
-                    String firstName = null;
-                    String lastName = null;
-                    for (User u : arrUser) {
-                        firstName = u.getFirstName();
-                        lastName = u.getLastName();
-                    }
                     if (firstName.equals(userFirstName) && lastName.equals(userLastName)) {
                         button.setBackground(Color.BLACK);
                     } else {
@@ -92,11 +92,29 @@ public class SeatSelection extends javax.swing.JFrame {
                     }
                     break;
                 case "in-process":
-                    button.setBackground(Color.BLUE);
+                    if (firstName.equals(userFirstName) && lastName.equals(userLastName)) {
+                        button.setBackground(Color.BLACK);
+                    } else {
+                        button.setBackground(Color.BLUE);
+                    }
                     break;
             }
+            setSeatAvailability(button);
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+    
+    private static void setSeatAvailability(javax.swing.JToggleButton button) {
+        if (button.getBackground() == Color.RED || button.getBackground() == Color.BLUE) {
+            button.setSelected(true);
+        }
+        if (button.getBackground() == Color.BLACK) {
+            button.setSelected(true);
+            button.setEnabled(true);
+        }
+        if (button.getBackground() == Color.GREEN) {
+            button.setEnabled(true);
         }
     }
 

@@ -52,9 +52,10 @@ public class ReservationRepository {
         int iRet = -1;
         try {
             Connection con = DBManager.getInstance().getConnection();
-            String SQL = "DELETE FROM tbl_reservation WHERE id=?";
+            String SQL = "DELETE FROM tbl_reservation WHERE user_id=? && seat_id=?";
             PreparedStatement pstmt = con.prepareStatement(SQL);
-            pstmt.setInt(1, r.getId());
+            pstmt.setInt(1, r.getUserID());
+            pstmt.setInt(2, r.getSeatID());
             iRet = pstmt.executeUpdate();
             pstmt.close();
         } catch (SQLException se) {

@@ -3,6 +3,7 @@ import java.awt.Color;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
 /*
@@ -110,11 +111,78 @@ public class SeatSelection extends javax.swing.JFrame {
             button.setSelected(true);
         }
         if (button.getBackground() == Color.BLACK) {
-            button.setSelected(true);
             button.setEnabled(true);
+            button.setSelected(true);
         }
         if (button.getBackground() == Color.GREEN) {
             button.setEnabled(true);
+            button.setSelected(false);
+        }
+    }
+    
+    private static void reserveSeat(javax.swing.JToggleButton button) {
+        if (button.getBackground() == Color.RED ||
+                button.getBackground() == Color.BLUE) {
+            JOptionPane.showMessageDialog(button,
+                    "Este asiento no se encuentra disponible para reservación",
+                    "Operación inválida", JOptionPane.WARNING_MESSAGE);
+            button.setSelected(true);
+        }
+        if (button.getBackground() == Color.GREEN) {
+            try {
+                Registry registry = LocateRegistry.getRegistry("127.0.0.1");
+                IRemoteSeat rs = (IRemoteSeat) registry.lookup("Seat");
+                IRemoteReservation rr = (IRemoteReservation) registry.lookup("Reservation");
+                IRemoteUser ru = (IRemoteUser) registry.lookup("User");
+                ArrayList <User> arrUser = ru.findUserByName(userFirstName,
+                        userLastName);
+                int userID = 0;
+                for (User u : arrUser) {
+                    userID = u.getId();
+                }
+                ArrayList <Seat> arrSeat = rs.findSeatByName(button.getText());
+                int seatID = 0;
+                for (Seat s : arrSeat) {
+                    seatID = s.getId();
+                }
+                Seat reservedSeat = new Seat(button.getText(), "in-process");
+                rs.updateSeat(reservedSeat);
+                Reservation reservation = new Reservation(userID, seatID);
+                rr.saveReservation(reservation);
+                button.setBackground(Color.BLACK);
+                button.setSelected(true);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return;
+        }
+        if (button.getBackground() == Color.BLACK) {
+            try {
+                Registry registry = LocateRegistry.getRegistry("127.0.0.1");
+                IRemoteSeat rs = (IRemoteSeat) registry.lookup("Seat");
+                IRemoteReservation rr = (IRemoteReservation) registry.lookup("Reservation");
+                IRemoteUser ru = (IRemoteUser) registry.lookup("User");
+                ArrayList <User> arrUser = ru.findUserByName(userFirstName,
+                        userLastName);
+                int userID = 0;
+                for (User u : arrUser) {
+                    userID = u.getId();
+                }
+                ArrayList <Seat> arrSeat = rs.findSeatByName(button.getText());
+                int seatID = 0;
+                for (Seat s : arrSeat) {
+                    seatID = s.getId();
+                }
+                Seat reservedSeat = new Seat(button.getText(), "available");
+                rs.updateSeat(reservedSeat);
+                Reservation reservation = new Reservation(userID, seatID);
+                rr.deleteReservation(reservation);
+                button.setBackground(Color.GREEN);
+                button.setSelected(false);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return;
         }
     }
 

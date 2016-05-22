@@ -57,8 +57,8 @@ public class SeatSelection extends javax.swing.JFrame {
         try {            
             Registry registry = LocateRegistry.getRegistry("127.0.0.1");
             IRemoteSeat rs = (IRemoteSeat) registry.lookup("Seat");
-            ArrayList <Seat> arrSeat = rs.findSeatByName(button.getLabel());
-            System.out.print(button.getLabel());
+            ArrayList <Seat> arrSeat = rs.findSeatByName(button.getText());
+            System.out.print(button.getText());
             int id = 0;
             String status = null;
             for (Seat s : arrSeat) {
@@ -239,700 +239,700 @@ public class SeatSelection extends javax.swing.JFrame {
         setForeground(java.awt.SystemColor.activeCaption);
         setResizable(false);
 
-        a1Button.setLabel("A1");
+        a1Button.setText("A1");
         a1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a1ButtonActionPerformed(evt);
             }
         });
 
-        a2Button.setLabel("A2");
+        a2Button.setText("A2");
         a2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a2ButtonActionPerformed(evt);
             }
         });
 
-        a3Button.setLabel("A3");
+        a3Button.setText("A3");
         a3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a3ButtonActionPerformed(evt);
             }
         });
 
-        a4Button.setLabel("A4");
+        a4Button.setText("A4");
         a4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a4ButtonActionPerformed(evt);
             }
         });
 
-        a5Button.setLabel("A5");
+        a5Button.setText("A5");
         a5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a5ButtonActionPerformed(evt);
             }
         });
 
-        a6Button.setLabel("A6");
+        a6Button.setText("A6");
         a6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a6ButtonActionPerformed(evt);
             }
         });
 
-        a7Button.setLabel("A7");
+        a7Button.setText("A7");
         a7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a7ButtonActionPerformed(evt);
             }
         });
 
-        a8Button.setLabel("A8");
+        a8Button.setText("A8");
         a8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a8ButtonActionPerformed(evt);
             }
         });
 
-        a9Button.setLabel("A9");
+        a9Button.setText("A9");
         a9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a9ButtonActionPerformed(evt);
             }
         });
 
-        a10Button.setLabel("A10");
+        a10Button.setText("A10");
         a10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 a10ButtonActionPerformed(evt);
             }
         });
 
-        b3Button.setLabel("B3");
+        b3Button.setText("B3");
         b3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b3ButtonActionPerformed(evt);
             }
         });
 
-        b4Button.setLabel("B4");
+        b4Button.setText("B4");
         b4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b4ButtonActionPerformed(evt);
             }
         });
 
-        b1Button.setLabel("B1");
+        b1Button.setText("B1");
         b1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b1ButtonActionPerformed(evt);
             }
         });
 
-        b5Button.setLabel("B5");
+        b5Button.setText("B5");
         b5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b5ButtonActionPerformed(evt);
             }
         });
 
-        b6Button.setLabel("B6");
+        b6Button.setText("B6");
         b6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b6ButtonActionPerformed(evt);
             }
         });
 
-        b7Button.setLabel("B7");
+        b7Button.setText("B7");
         b7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b7ButtonActionPerformed(evt);
             }
         });
 
-        b8Button.setLabel("B8");
+        b8Button.setText("B8");
         b8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b8ButtonActionPerformed(evt);
             }
         });
 
-        b9Button.setLabel("B9");
+        b9Button.setText("B9");
         b9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b9ButtonActionPerformed(evt);
             }
         });
 
-        b10Button.setLabel("B10");
+        b10Button.setText("B10");
         b10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b10ButtonActionPerformed(evt);
             }
         });
 
-        b2Button.setLabel("B2");
+        b2Button.setText("B2");
         b2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b2ButtonActionPerformed(evt);
             }
         });
 
-        c3Button.setLabel("C3");
+        c3Button.setText("C3");
         c3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c3ButtonActionPerformed(evt);
             }
         });
 
-        d5Button.setLabel("D5");
+        d5Button.setText("D5");
         d5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d5ButtonActionPerformed(evt);
             }
         });
 
-        c4Button.setLabel("C4");
+        c4Button.setText("C4");
         c4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c4ButtonActionPerformed(evt);
             }
         });
 
-        d6Button.setLabel("D6");
+        d6Button.setText("D6");
         d6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d6ButtonActionPerformed(evt);
             }
         });
 
-        c5Button.setLabel("C5");
+        c5Button.setText("C5");
         c5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c5ButtonActionPerformed(evt);
             }
         });
 
-        d7Button.setLabel("D7");
+        d7Button.setText("D7");
         d7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d7ButtonActionPerformed(evt);
             }
         });
 
-        c6Button.setLabel("C6");
+        c6Button.setText("C6");
         c6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c6ButtonActionPerformed(evt);
             }
         });
 
-        d8Button.setLabel("D8");
+        d8Button.setText("D8");
         d8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d8ButtonActionPerformed(evt);
             }
         });
 
-        c7Button.setLabel("C7");
+        c7Button.setText("C7");
         c7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c7ButtonActionPerformed(evt);
             }
         });
 
-        d9Button.setLabel("D9");
+        d9Button.setText("D9");
         d9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d9ButtonActionPerformed(evt);
             }
         });
 
-        c8Button.setLabel("C8");
+        c8Button.setText("C8");
         c8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c8ButtonActionPerformed(evt);
             }
         });
 
-        d10Button.setLabel("D10");
+        d10Button.setText("D10");
         d10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d10ButtonActionPerformed(evt);
             }
         });
 
-        c9Button.setLabel("C9");
+        c9Button.setText("C9");
         c9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c9ButtonActionPerformed(evt);
             }
         });
 
-        d2Button.setLabel("D2");
+        d2Button.setText("D2");
         d2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d2ButtonActionPerformed(evt);
             }
         });
 
-        c10Button.setLabel("C10");
+        c10Button.setText("C10");
         c10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c10ButtonActionPerformed(evt);
             }
         });
 
-        c1Button.setLabel("C1");
+        c1Button.setText("C1");
         c1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c1ButtonActionPerformed(evt);
             }
         });
 
-        d3Button.setLabel("D3");
+        d3Button.setText("D3");
         d3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d3ButtonActionPerformed(evt);
             }
         });
 
-        d4Button.setLabel("D4");
+        d4Button.setText("D4");
         d4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d4ButtonActionPerformed(evt);
             }
         });
 
-        c2Button.setLabel("C2");
+        c2Button.setText("C2");
         c2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 c2ButtonActionPerformed(evt);
             }
         });
 
-        d1Button.setLabel("D1");
+        d1Button.setText("D1");
         d1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 d1ButtonActionPerformed(evt);
             }
         });
 
-        e7Button.setLabel("E7");
+        e7Button.setText("E7");
         e7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e7ButtonActionPerformed(evt);
             }
         });
 
-        e8Button.setLabel("E8");
+        e8Button.setText("E8");
         e8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e8ButtonActionPerformed(evt);
             }
         });
 
-        e9Button.setLabel("E9");
+        e9Button.setText("E9");
         e9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e9ButtonActionPerformed(evt);
             }
         });
 
-        e10Button.setLabel("E10");
+        e10Button.setText("E10");
         e10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e10ButtonActionPerformed(evt);
             }
         });
 
-        e2Button.setLabel("E2");
+        e2Button.setText("E2");
         e2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e2ButtonActionPerformed(evt);
             }
         });
 
-        e3Button.setLabel("E3");
+        e3Button.setText("E3");
         e3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e3ButtonActionPerformed(evt);
             }
         });
 
-        e4Button.setLabel("E4");
+        e4Button.setText("E4");
         e4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e4ButtonActionPerformed(evt);
             }
         });
 
-        e1Button.setLabel("E1");
+        e1Button.setText("E1");
         e1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e1ButtonActionPerformed(evt);
             }
         });
 
-        e5Button.setLabel("E5");
+        e5Button.setText("E5");
         e5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e5ButtonActionPerformed(evt);
             }
         });
 
-        e6Button.setLabel("E6");
+        e6Button.setText("E6");
         e6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 e6ButtonActionPerformed(evt);
             }
         });
 
-        h5Button.setLabel("H5");
+        h5Button.setText("H5");
         h5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h5ButtonActionPerformed(evt);
             }
         });
 
-        i7Button.setLabel("I7");
+        i7Button.setText("I7");
         i7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i7ButtonActionPerformed(evt);
             }
         });
 
-        h6Button.setLabel("H6");
+        h6Button.setText("H6");
         h6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h6ButtonActionPerformed(evt);
             }
         });
 
-        i8Button.setLabel("I8");
+        i8Button.setText("I8");
         i8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i8ButtonActionPerformed(evt);
             }
         });
 
-        h7Button.setLabel("H7");
+        h7Button.setText("H7");
         h7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h7ButtonActionPerformed(evt);
             }
         });
 
-        i9Button.setLabel("I9");
+        i9Button.setText("I9");
         i9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i9ButtonActionPerformed(evt);
             }
         });
 
-        h8Button.setLabel("H8");
+        h8Button.setText("H8");
         h8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h8ButtonActionPerformed(evt);
             }
         });
 
-        i10Button.setLabel("I10");
+        i10Button.setText("I10");
         i10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i10ButtonActionPerformed(evt);
             }
         });
 
-        h9Button.setLabel("H9");
+        h9Button.setText("H9");
         h9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h9ButtonActionPerformed(evt);
             }
         });
 
-        i2Button.setLabel("I2");
+        i2Button.setText("I2");
         i2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i2ButtonActionPerformed(evt);
             }
         });
 
-        h10Button.setLabel("H10");
+        h10Button.setText("H10");
         h10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h10ButtonActionPerformed(evt);
             }
         });
 
-        h1Button.setLabel("H1");
+        h1Button.setText("H1");
         h1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h1ButtonActionPerformed(evt);
             }
         });
 
-        i3Button.setLabel("I3");
+        i3Button.setText("I3");
         i3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i3ButtonActionPerformed(evt);
             }
         });
 
-        i4Button.setLabel("I4");
+        i4Button.setText("I4");
         i4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i4ButtonActionPerformed(evt);
             }
         });
 
-        h2Button.setLabel("H2");
+        h2Button.setText("H2");
         h2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h2ButtonActionPerformed(evt);
             }
         });
 
-        i1Button.setLabel("I1");
+        i1Button.setText("I1");
         i1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i1ButtonActionPerformed(evt);
             }
         });
 
-        f1Button.setLabel("F1");
+        f1Button.setText("F1");
         f1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f1ButtonActionPerformed(evt);
             }
         });
 
-        j7Button.setLabel("J7");
+        j7Button.setText("J7");
         j7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j7ButtonActionPerformed(evt);
             }
         });
 
-        j8Button.setLabel("J8");
+        j8Button.setText("J8");
         j8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j8ButtonActionPerformed(evt);
             }
         });
 
-        j9Button.setLabel("J9");
+        j9Button.setText("J9");
         j9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j9ButtonActionPerformed(evt);
             }
         });
 
-        j10Button.setLabel("J10");
+        j10Button.setText("J10");
         j10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j10ButtonActionPerformed(evt);
             }
         });
 
-        j2Button.setLabel("J2");
+        j2Button.setText("J2");
         j2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j2ButtonActionPerformed(evt);
             }
         });
 
-        f2Button.setLabel("F2");
+        f2Button.setText("F2");
         f2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f2ButtonActionPerformed(evt);
             }
         });
 
-        j3Button.setLabel("J3");
+        j3Button.setText("J3");
         j3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j3ButtonActionPerformed(evt);
             }
         });
 
-        f3Button.setLabel("F3");
+        f3Button.setText("F3");
         f3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f3ButtonActionPerformed(evt);
             }
         });
 
-        j4Button.setLabel("J4");
+        j4Button.setText("J4");
         j4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j4ButtonActionPerformed(evt);
             }
         });
 
-        f4Button.setLabel("F4");
+        f4Button.setText("F4");
         f4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f4ButtonActionPerformed(evt);
             }
         });
 
-        j1Button.setLabel("J1");
+        j1Button.setText("J1");
         j1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j1ButtonActionPerformed(evt);
             }
         });
 
-        f5Button.setLabel("F5");
+        f5Button.setText("F5");
         f5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f5ButtonActionPerformed(evt);
             }
         });
 
-        j5Button.setLabel("J5");
+        j5Button.setText("J5");
         j5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j5ButtonActionPerformed(evt);
             }
         });
 
-        f6Button.setLabel("F6");
+        f6Button.setText("F6");
         f6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f6ButtonActionPerformed(evt);
             }
         });
 
-        j6Button.setLabel("J6");
+        j6Button.setText("J6");
         j6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 j6ButtonActionPerformed(evt);
             }
         });
 
-        f7Button.setLabel("F7");
+        f7Button.setText("F7");
         f7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f7ButtonActionPerformed(evt);
             }
         });
 
-        f8Button.setLabel("F8");
+        f8Button.setText("F8");
         f8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f8ButtonActionPerformed(evt);
             }
         });
 
-        f9Button.setLabel("F9");
+        f9Button.setText("F9");
         f9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f9ButtonActionPerformed(evt);
             }
         });
 
-        f10Button.setLabel("F10");
+        f10Button.setText("F10");
         f10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 f10ButtonActionPerformed(evt);
             }
         });
 
-        g3Button.setLabel("G3");
+        g3Button.setText("G3");
         g3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g3ButtonActionPerformed(evt);
             }
         });
 
-        g4Button.setLabel("G4");
+        g4Button.setText("G4");
         g4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g4ButtonActionPerformed(evt);
             }
         });
 
-        g1Button.setLabel("G1");
+        g1Button.setText("G1");
         g1Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g1ButtonActionPerformed(evt);
             }
         });
 
-        g5Button.setLabel("G5");
+        g5Button.setText("G5");
         g5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g5ButtonActionPerformed(evt);
             }
         });
 
-        g6Button.setLabel("G6");
+        g6Button.setText("G6");
         g6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g6ButtonActionPerformed(evt);
             }
         });
 
-        g7Button.setLabel("G7");
+        g7Button.setText("G7");
         g7Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g7ButtonActionPerformed(evt);
             }
         });
 
-        g8Button.setLabel("G8");
+        g8Button.setText("G8");
         g8Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g8ButtonActionPerformed(evt);
             }
         });
 
-        g9Button.setLabel("G9");
+        g9Button.setText("G9");
         g9Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g9ButtonActionPerformed(evt);
             }
         });
 
-        g10Button.setLabel("G10");
+        g10Button.setText("G10");
         g10Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g10ButtonActionPerformed(evt);
             }
         });
 
-        g2Button.setLabel("G2");
+        g2Button.setText("G2");
         g2Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 g2ButtonActionPerformed(evt);
             }
         });
 
-        h3Button.setLabel("H3");
+        h3Button.setText("H3");
         h3Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h3ButtonActionPerformed(evt);
             }
         });
 
-        i5Button.setLabel("I5");
+        i5Button.setText("I5");
         i5Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i5ButtonActionPerformed(evt);
             }
         });
 
-        h4Button.setLabel("H4");
+        h4Button.setText("H4");
         h4Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 h4ButtonActionPerformed(evt);
             }
         });
 
-        i6Button.setLabel("I6");
+        i6Button.setText("I6");
         i6Button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 i6ButtonActionPerformed(evt);

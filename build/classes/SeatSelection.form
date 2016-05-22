@@ -488,7 +488,7 @@
   <SubComponents>
     <Component class="javax.swing.JToggleButton" name="a1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A1"/>
+        <Property name="text" type="java.lang.String" value="A1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a1ButtonActionPerformed"/>
@@ -499,7 +499,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A2"/>
+        <Property name="text" type="java.lang.String" value="A2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a2ButtonActionPerformed"/>
@@ -510,7 +510,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A3"/>
+        <Property name="text" type="java.lang.String" value="A3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a3ButtonActionPerformed"/>
@@ -521,7 +521,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A4"/>
+        <Property name="text" type="java.lang.String" value="A4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a4ButtonActionPerformed"/>
@@ -532,7 +532,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A5"/>
+        <Property name="text" type="java.lang.String" value="A5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a5ButtonActionPerformed"/>
@@ -543,7 +543,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A6"/>
+        <Property name="text" type="java.lang.String" value="A6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a6ButtonActionPerformed"/>
@@ -554,7 +554,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A7"/>
+        <Property name="text" type="java.lang.String" value="A7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a7ButtonActionPerformed"/>
@@ -565,7 +565,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A8"/>
+        <Property name="text" type="java.lang.String" value="A8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a8ButtonActionPerformed"/>
@@ -576,7 +576,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A9"/>
+        <Property name="text" type="java.lang.String" value="A9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a9ButtonActionPerformed"/>
@@ -587,7 +587,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="a10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="A10"/>
+        <Property name="text" type="java.lang.String" value="A10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="a10ButtonActionPerformed"/>
@@ -598,7 +598,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B3"/>
+        <Property name="text" type="java.lang.String" value="B3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b3ButtonActionPerformed"/>
@@ -609,7 +609,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B4"/>
+        <Property name="text" type="java.lang.String" value="B4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b4ButtonActionPerformed"/>
@@ -620,7 +620,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B1"/>
+        <Property name="text" type="java.lang.String" value="B1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b1ButtonActionPerformed"/>
@@ -631,7 +631,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B5"/>
+        <Property name="text" type="java.lang.String" value="B5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b5ButtonActionPerformed"/>
@@ -642,7 +642,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B6"/>
+        <Property name="text" type="java.lang.String" value="B6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b6ButtonActionPerformed"/>
@@ -653,7 +653,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B7"/>
+        <Property name="text" type="java.lang.String" value="B7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b7ButtonActionPerformed"/>
@@ -664,7 +664,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B8"/>
+        <Property name="text" type="java.lang.String" value="B8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b8ButtonActionPerformed"/>
@@ -675,7 +675,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B9"/>
+        <Property name="text" type="java.lang.String" value="B9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b9ButtonActionPerformed"/>
@@ -686,7 +686,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B10"/>
+        <Property name="text" type="java.lang.String" value="B10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b10ButtonActionPerformed"/>
@@ -697,7 +697,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="b2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="B2"/>
+        <Property name="text" type="java.lang.String" value="B2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="b2ButtonActionPerformed"/>
@@ -708,7 +708,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C3"/>
+        <Property name="text" type="java.lang.String" value="C3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c3ButtonActionPerformed"/>
@@ -719,7 +719,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D5"/>
+        <Property name="text" type="java.lang.String" value="D5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d5ButtonActionPerformed"/>
@@ -730,7 +730,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C4"/>
+        <Property name="text" type="java.lang.String" value="C4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c4ButtonActionPerformed"/>
@@ -741,7 +741,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D6"/>
+        <Property name="text" type="java.lang.String" value="D6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d6ButtonActionPerformed"/>
@@ -752,7 +752,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C5"/>
+        <Property name="text" type="java.lang.String" value="C5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c5ButtonActionPerformed"/>
@@ -763,7 +763,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D7"/>
+        <Property name="text" type="java.lang.String" value="D7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d7ButtonActionPerformed"/>
@@ -774,7 +774,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C6"/>
+        <Property name="text" type="java.lang.String" value="C6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c6ButtonActionPerformed"/>
@@ -785,7 +785,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D8"/>
+        <Property name="text" type="java.lang.String" value="D8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d8ButtonActionPerformed"/>
@@ -796,7 +796,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C7"/>
+        <Property name="text" type="java.lang.String" value="C7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c7ButtonActionPerformed"/>
@@ -807,7 +807,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D9"/>
+        <Property name="text" type="java.lang.String" value="D9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d9ButtonActionPerformed"/>
@@ -818,7 +818,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C8"/>
+        <Property name="text" type="java.lang.String" value="C8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c8ButtonActionPerformed"/>
@@ -829,7 +829,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D10"/>
+        <Property name="text" type="java.lang.String" value="D10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d10ButtonActionPerformed"/>
@@ -840,7 +840,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C9"/>
+        <Property name="text" type="java.lang.String" value="C9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c9ButtonActionPerformed"/>
@@ -851,7 +851,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D2"/>
+        <Property name="text" type="java.lang.String" value="D2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d2ButtonActionPerformed"/>
@@ -862,7 +862,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C10"/>
+        <Property name="text" type="java.lang.String" value="C10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c10ButtonActionPerformed"/>
@@ -873,7 +873,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C1"/>
+        <Property name="text" type="java.lang.String" value="C1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c1ButtonActionPerformed"/>
@@ -884,7 +884,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D3"/>
+        <Property name="text" type="java.lang.String" value="D3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d3ButtonActionPerformed"/>
@@ -895,7 +895,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D4"/>
+        <Property name="text" type="java.lang.String" value="D4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d4ButtonActionPerformed"/>
@@ -906,7 +906,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="c2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="C2"/>
+        <Property name="text" type="java.lang.String" value="C2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="c2ButtonActionPerformed"/>
@@ -917,7 +917,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="d1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="D1"/>
+        <Property name="text" type="java.lang.String" value="D1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="d1ButtonActionPerformed"/>
@@ -928,7 +928,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E7"/>
+        <Property name="text" type="java.lang.String" value="E7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e7ButtonActionPerformed"/>
@@ -939,7 +939,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E8"/>
+        <Property name="text" type="java.lang.String" value="E8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e8ButtonActionPerformed"/>
@@ -950,7 +950,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E9"/>
+        <Property name="text" type="java.lang.String" value="E9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e9ButtonActionPerformed"/>
@@ -961,7 +961,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E10"/>
+        <Property name="text" type="java.lang.String" value="E10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e10ButtonActionPerformed"/>
@@ -972,7 +972,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E2"/>
+        <Property name="text" type="java.lang.String" value="E2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e2ButtonActionPerformed"/>
@@ -983,7 +983,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E3"/>
+        <Property name="text" type="java.lang.String" value="E3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e3ButtonActionPerformed"/>
@@ -994,7 +994,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E4"/>
+        <Property name="text" type="java.lang.String" value="E4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e4ButtonActionPerformed"/>
@@ -1005,7 +1005,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E1"/>
+        <Property name="text" type="java.lang.String" value="E1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e1ButtonActionPerformed"/>
@@ -1016,7 +1016,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E5"/>
+        <Property name="text" type="java.lang.String" value="E5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e5ButtonActionPerformed"/>
@@ -1027,7 +1027,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="e6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="E6"/>
+        <Property name="text" type="java.lang.String" value="E6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="e6ButtonActionPerformed"/>
@@ -1038,7 +1038,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H5"/>
+        <Property name="text" type="java.lang.String" value="H5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h5ButtonActionPerformed"/>
@@ -1049,7 +1049,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I7"/>
+        <Property name="text" type="java.lang.String" value="I7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i7ButtonActionPerformed"/>
@@ -1060,7 +1060,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H6"/>
+        <Property name="text" type="java.lang.String" value="H6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h6ButtonActionPerformed"/>
@@ -1071,7 +1071,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I8"/>
+        <Property name="text" type="java.lang.String" value="I8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i8ButtonActionPerformed"/>
@@ -1082,7 +1082,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H7"/>
+        <Property name="text" type="java.lang.String" value="H7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h7ButtonActionPerformed"/>
@@ -1093,7 +1093,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I9"/>
+        <Property name="text" type="java.lang.String" value="I9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i9ButtonActionPerformed"/>
@@ -1104,7 +1104,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H8"/>
+        <Property name="text" type="java.lang.String" value="H8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h8ButtonActionPerformed"/>
@@ -1115,7 +1115,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I10"/>
+        <Property name="text" type="java.lang.String" value="I10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i10ButtonActionPerformed"/>
@@ -1126,7 +1126,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H9"/>
+        <Property name="text" type="java.lang.String" value="H9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h9ButtonActionPerformed"/>
@@ -1137,7 +1137,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I2"/>
+        <Property name="text" type="java.lang.String" value="I2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i2ButtonActionPerformed"/>
@@ -1148,7 +1148,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H10"/>
+        <Property name="text" type="java.lang.String" value="H10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h10ButtonActionPerformed"/>
@@ -1159,7 +1159,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H1"/>
+        <Property name="text" type="java.lang.String" value="H1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h1ButtonActionPerformed"/>
@@ -1170,7 +1170,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I3"/>
+        <Property name="text" type="java.lang.String" value="I3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i3ButtonActionPerformed"/>
@@ -1181,7 +1181,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I4"/>
+        <Property name="text" type="java.lang.String" value="I4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i4ButtonActionPerformed"/>
@@ -1192,7 +1192,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H2"/>
+        <Property name="text" type="java.lang.String" value="H2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h2ButtonActionPerformed"/>
@@ -1203,7 +1203,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I1"/>
+        <Property name="text" type="java.lang.String" value="I1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i1ButtonActionPerformed"/>
@@ -1214,7 +1214,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F1"/>
+        <Property name="text" type="java.lang.String" value="F1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f1ButtonActionPerformed"/>
@@ -1225,7 +1225,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J7"/>
+        <Property name="text" type="java.lang.String" value="J7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j7ButtonActionPerformed"/>
@@ -1236,7 +1236,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J8"/>
+        <Property name="text" type="java.lang.String" value="J8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j8ButtonActionPerformed"/>
@@ -1247,7 +1247,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J9"/>
+        <Property name="text" type="java.lang.String" value="J9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j9ButtonActionPerformed"/>
@@ -1258,7 +1258,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J10"/>
+        <Property name="text" type="java.lang.String" value="J10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j10ButtonActionPerformed"/>
@@ -1269,7 +1269,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J2"/>
+        <Property name="text" type="java.lang.String" value="J2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j2ButtonActionPerformed"/>
@@ -1280,7 +1280,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F2"/>
+        <Property name="text" type="java.lang.String" value="F2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f2ButtonActionPerformed"/>
@@ -1291,7 +1291,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J3"/>
+        <Property name="text" type="java.lang.String" value="J3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j3ButtonActionPerformed"/>
@@ -1302,7 +1302,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F3"/>
+        <Property name="text" type="java.lang.String" value="F3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f3ButtonActionPerformed"/>
@@ -1313,7 +1313,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J4"/>
+        <Property name="text" type="java.lang.String" value="J4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j4ButtonActionPerformed"/>
@@ -1324,7 +1324,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F4"/>
+        <Property name="text" type="java.lang.String" value="F4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f4ButtonActionPerformed"/>
@@ -1335,7 +1335,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J1"/>
+        <Property name="text" type="java.lang.String" value="J1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j1ButtonActionPerformed"/>
@@ -1346,7 +1346,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F5"/>
+        <Property name="text" type="java.lang.String" value="F5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f5ButtonActionPerformed"/>
@@ -1357,7 +1357,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J5"/>
+        <Property name="text" type="java.lang.String" value="J5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j5ButtonActionPerformed"/>
@@ -1368,7 +1368,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F6"/>
+        <Property name="text" type="java.lang.String" value="F6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f6ButtonActionPerformed"/>
@@ -1379,7 +1379,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="j6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="J6"/>
+        <Property name="text" type="java.lang.String" value="J6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="j6ButtonActionPerformed"/>
@@ -1390,7 +1390,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F7"/>
+        <Property name="text" type="java.lang.String" value="F7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f7ButtonActionPerformed"/>
@@ -1401,7 +1401,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F8"/>
+        <Property name="text" type="java.lang.String" value="F8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f8ButtonActionPerformed"/>
@@ -1412,7 +1412,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F9"/>
+        <Property name="text" type="java.lang.String" value="F9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f9ButtonActionPerformed"/>
@@ -1423,7 +1423,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="f10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="F10"/>
+        <Property name="text" type="java.lang.String" value="F10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="f10ButtonActionPerformed"/>
@@ -1434,7 +1434,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G3"/>
+        <Property name="text" type="java.lang.String" value="G3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g3ButtonActionPerformed"/>
@@ -1445,7 +1445,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G4"/>
+        <Property name="text" type="java.lang.String" value="G4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g4ButtonActionPerformed"/>
@@ -1456,7 +1456,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g1Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G1"/>
+        <Property name="text" type="java.lang.String" value="G1"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g1ButtonActionPerformed"/>
@@ -1467,7 +1467,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G5"/>
+        <Property name="text" type="java.lang.String" value="G5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g5ButtonActionPerformed"/>
@@ -1478,7 +1478,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G6"/>
+        <Property name="text" type="java.lang.String" value="G6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g6ButtonActionPerformed"/>
@@ -1489,7 +1489,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g7Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G7"/>
+        <Property name="text" type="java.lang.String" value="G7"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g7ButtonActionPerformed"/>
@@ -1500,7 +1500,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g8Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G8"/>
+        <Property name="text" type="java.lang.String" value="G8"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g8ButtonActionPerformed"/>
@@ -1511,7 +1511,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g9Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G9"/>
+        <Property name="text" type="java.lang.String" value="G9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g9ButtonActionPerformed"/>
@@ -1522,7 +1522,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g10Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G10"/>
+        <Property name="text" type="java.lang.String" value="G10"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g10ButtonActionPerformed"/>
@@ -1533,7 +1533,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="g2Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="G2"/>
+        <Property name="text" type="java.lang.String" value="G2"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g2ButtonActionPerformed"/>
@@ -1544,7 +1544,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h3Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H3"/>
+        <Property name="text" type="java.lang.String" value="H3"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h3ButtonActionPerformed"/>
@@ -1555,7 +1555,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i5Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I5"/>
+        <Property name="text" type="java.lang.String" value="I5"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i5ButtonActionPerformed"/>
@@ -1566,7 +1566,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="h4Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="H4"/>
+        <Property name="text" type="java.lang.String" value="H4"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="h4ButtonActionPerformed"/>
@@ -1577,7 +1577,7 @@
     </Component>
     <Component class="javax.swing.JToggleButton" name="i6Button">
       <Properties>
-        <Property name="label" type="java.lang.String" value="I6"/>
+        <Property name="text" type="java.lang.String" value="I6"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="i6ButtonActionPerformed"/>

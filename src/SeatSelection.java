@@ -1594,402 +1594,602 @@ public class SeatSelection extends javax.swing.JFrame {
 
     private void a1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a1Button);
     }//GEN-LAST:event_a1ButtonActionPerformed
 
     private void a2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a2Button);
     }//GEN-LAST:event_a2ButtonActionPerformed
 
     private void a3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a3Button);
     }//GEN-LAST:event_a3ButtonActionPerformed
 
     private void a4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a4Button);
     }//GEN-LAST:event_a4ButtonActionPerformed
 
     private void a5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a5Button);
     }//GEN-LAST:event_a5ButtonActionPerformed
 
     private void a6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a6Button);
     }//GEN-LAST:event_a6ButtonActionPerformed
 
     private void a7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a7Button);
     }//GEN-LAST:event_a7ButtonActionPerformed
 
     private void a8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a8Button);
     }//GEN-LAST:event_a8ButtonActionPerformed
 
     private void a9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a9Button);
     }//GEN-LAST:event_a9ButtonActionPerformed
 
     private void a10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_a10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(a10Button);
     }//GEN-LAST:event_a10ButtonActionPerformed
 
     private void b3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b3Button);
     }//GEN-LAST:event_b3ButtonActionPerformed
 
     private void b4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b4Button);
     }//GEN-LAST:event_b4ButtonActionPerformed
 
     private void b1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b1Button);
     }//GEN-LAST:event_b1ButtonActionPerformed
 
     private void b5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b5Button);
     }//GEN-LAST:event_b5ButtonActionPerformed
 
     private void b6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b6Button);
     }//GEN-LAST:event_b6ButtonActionPerformed
 
     private void b7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b7Button);
     }//GEN-LAST:event_b7ButtonActionPerformed
 
     private void b8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b8Button);
     }//GEN-LAST:event_b8ButtonActionPerformed
 
     private void b9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b9Button);
     }//GEN-LAST:event_b9ButtonActionPerformed
 
     private void b10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b10Button);
     }//GEN-LAST:event_b10ButtonActionPerformed
 
     private void b2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(b2Button);
     }//GEN-LAST:event_b2ButtonActionPerformed
 
     private void c3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c3Button);
     }//GEN-LAST:event_c3ButtonActionPerformed
 
     private void d5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d5Button);
     }//GEN-LAST:event_d5ButtonActionPerformed
 
     private void c4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c4Button);
     }//GEN-LAST:event_c4ButtonActionPerformed
 
     private void d6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d6Button);
     }//GEN-LAST:event_d6ButtonActionPerformed
 
     private void c5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c5Button);
     }//GEN-LAST:event_c5ButtonActionPerformed
 
     private void d7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d7Button);
     }//GEN-LAST:event_d7ButtonActionPerformed
 
     private void c6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c6Button);
     }//GEN-LAST:event_c6ButtonActionPerformed
 
     private void d8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d8Button);
     }//GEN-LAST:event_d8ButtonActionPerformed
 
     private void c7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c7Button);
     }//GEN-LAST:event_c7ButtonActionPerformed
 
     private void d9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d9Button);
     }//GEN-LAST:event_d9ButtonActionPerformed
 
     private void c8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c8Button);
     }//GEN-LAST:event_c8ButtonActionPerformed
 
     private void d10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d10Button);
     }//GEN-LAST:event_d10ButtonActionPerformed
 
     private void c9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c9Button);
     }//GEN-LAST:event_c9ButtonActionPerformed
 
     private void d2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d2Button);
     }//GEN-LAST:event_d2ButtonActionPerformed
 
     private void c10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c10Button);
     }//GEN-LAST:event_c10ButtonActionPerformed
 
     private void c1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c1Button);
     }//GEN-LAST:event_c1ButtonActionPerformed
 
     private void d3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d3Button);
     }//GEN-LAST:event_d3ButtonActionPerformed
 
     private void d4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d4Button);
     }//GEN-LAST:event_d4ButtonActionPerformed
 
     private void c2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_c2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(c2Button);
     }//GEN-LAST:event_c2ButtonActionPerformed
 
     private void d1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_d1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(d1Button);
     }//GEN-LAST:event_d1ButtonActionPerformed
 
     private void e7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e7Button);
     }//GEN-LAST:event_e7ButtonActionPerformed
 
     private void e8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e8Button);
     }//GEN-LAST:event_e8ButtonActionPerformed
 
     private void e9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e9Button);
     }//GEN-LAST:event_e9ButtonActionPerformed
 
     private void e10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e10Button);
     }//GEN-LAST:event_e10ButtonActionPerformed
 
     private void e2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e2Button);
     }//GEN-LAST:event_e2ButtonActionPerformed
 
     private void e3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e3Button);
     }//GEN-LAST:event_e3ButtonActionPerformed
 
     private void e4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e4Button);
     }//GEN-LAST:event_e4ButtonActionPerformed
 
     private void e1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e1Button);
     }//GEN-LAST:event_e1ButtonActionPerformed
 
     private void e5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e5Button);
     }//GEN-LAST:event_e5ButtonActionPerformed
 
     private void e6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_e6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(e6Button);
     }//GEN-LAST:event_e6ButtonActionPerformed
 
     private void h5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h5Button);
     }//GEN-LAST:event_h5ButtonActionPerformed
 
     private void i7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i7Button);
     }//GEN-LAST:event_i7ButtonActionPerformed
 
     private void h6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h6Button);
     }//GEN-LAST:event_h6ButtonActionPerformed
 
     private void i8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i8Button);
     }//GEN-LAST:event_i8ButtonActionPerformed
 
     private void h7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h7Button);
     }//GEN-LAST:event_h7ButtonActionPerformed
 
     private void i9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i9Button);
     }//GEN-LAST:event_i9ButtonActionPerformed
 
     private void h8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h8Button);
     }//GEN-LAST:event_h8ButtonActionPerformed
 
     private void i10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i10Button);
     }//GEN-LAST:event_i10ButtonActionPerformed
 
     private void h9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h9Button);
     }//GEN-LAST:event_h9ButtonActionPerformed
 
     private void i2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i2Button);
     }//GEN-LAST:event_i2ButtonActionPerformed
 
     private void h10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h10Button);
     }//GEN-LAST:event_h10ButtonActionPerformed
 
     private void h1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h1Button);
     }//GEN-LAST:event_h1ButtonActionPerformed
 
     private void i3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i3Button);
     }//GEN-LAST:event_i3ButtonActionPerformed
 
     private void i4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i4Button);
     }//GEN-LAST:event_i4ButtonActionPerformed
 
     private void h2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h2Button);
     }//GEN-LAST:event_h2ButtonActionPerformed
 
     private void i1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i1Button);
     }//GEN-LAST:event_i1ButtonActionPerformed
 
     private void f1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f1Button);
     }//GEN-LAST:event_f1ButtonActionPerformed
 
     private void j7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j7Button);
     }//GEN-LAST:event_j7ButtonActionPerformed
 
     private void j8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j8Button);
     }//GEN-LAST:event_j8ButtonActionPerformed
 
     private void j9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j9Button);
     }//GEN-LAST:event_j9ButtonActionPerformed
 
     private void j10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j10Button);
     }//GEN-LAST:event_j10ButtonActionPerformed
 
     private void j2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j2Button);
     }//GEN-LAST:event_j2ButtonActionPerformed
 
     private void f2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f2Button);
     }//GEN-LAST:event_f2ButtonActionPerformed
 
     private void j3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j3Button);
     }//GEN-LAST:event_j3ButtonActionPerformed
 
     private void f3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f3Button);
     }//GEN-LAST:event_f3ButtonActionPerformed
 
     private void j4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j4Button);
     }//GEN-LAST:event_j4ButtonActionPerformed
 
     private void f4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f4Button);
     }//GEN-LAST:event_f4ButtonActionPerformed
 
     private void j1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j1Button);
     }//GEN-LAST:event_j1ButtonActionPerformed
 
     private void f5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f5Button);
     }//GEN-LAST:event_f5ButtonActionPerformed
 
     private void j5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j5Button);
     }//GEN-LAST:event_j5ButtonActionPerformed
 
     private void f6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f6Button);
     }//GEN-LAST:event_f6ButtonActionPerformed
 
     private void j6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_j6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(j6Button);
     }//GEN-LAST:event_j6ButtonActionPerformed
 
     private void f7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f7Button);
     }//GEN-LAST:event_f7ButtonActionPerformed
 
     private void f8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f8Button);
     }//GEN-LAST:event_f8ButtonActionPerformed
 
     private void f9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f9Button);
     }//GEN-LAST:event_f9ButtonActionPerformed
 
     private void f10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_f10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(f10Button);
     }//GEN-LAST:event_f10ButtonActionPerformed
 
     private void g3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g3Button);
     }//GEN-LAST:event_g3ButtonActionPerformed
 
     private void g4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g4Button);
     }//GEN-LAST:event_g4ButtonActionPerformed
 
     private void g1ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g1ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g1Button);
     }//GEN-LAST:event_g1ButtonActionPerformed
 
     private void g5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g5Button);
     }//GEN-LAST:event_g5ButtonActionPerformed
 
     private void g6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g6Button);
     }//GEN-LAST:event_g6ButtonActionPerformed
 
     private void g7ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g7ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g7Button);
     }//GEN-LAST:event_g7ButtonActionPerformed
 
     private void g8ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g8ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g8Button);
     }//GEN-LAST:event_g8ButtonActionPerformed
 
     private void g9ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g9ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g9Button);
     }//GEN-LAST:event_g9ButtonActionPerformed
 
     private void g10ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g10ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g10Button);
     }//GEN-LAST:event_g10ButtonActionPerformed
 
     private void g2ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_g2ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(g2Button);
     }//GEN-LAST:event_g2ButtonActionPerformed
 
     private void h3ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h3ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h3Button);
     }//GEN-LAST:event_h3ButtonActionPerformed
 
     private void i5ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i5ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i5Button);
     }//GEN-LAST:event_i5ButtonActionPerformed
 
     private void h4ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_h4ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(h4Button);
     }//GEN-LAST:event_h4ButtonActionPerformed
 
     private void i6ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_i6ButtonActionPerformed
         // TODO add your handling code here:
+        paintAllSeats();
+        reserveSeat(i6Button);
     }//GEN-LAST:event_i6ButtonActionPerformed
 
     private void refreshButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshButtonActionPerformed

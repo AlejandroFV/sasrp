@@ -2211,6 +2211,7 @@ public class SeatSelection extends javax.swing.JFrame {
             }
             JOptionPane.showMessageDialog(rootPane, "Cambios guardados",
                     "Operación exitosa", JOptionPane.INFORMATION_MESSAGE);
+            reservedSeats.clear();
             dispose();
             Login loginForm = new Login();
             loginForm.setVisible(true);
@@ -2250,9 +2251,6 @@ public class SeatSelection extends javax.swing.JFrame {
                     Reservation reservation = new Reservation(userID, seatID);
                     rr.deleteReservation(reservation);
                 }
-                
-                
-                
                 reservedSeats.clear();
                 dispose();
                 Login loginForm = new Login();

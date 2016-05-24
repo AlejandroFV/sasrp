@@ -14,16 +14,20 @@ import java.rmi.registry.Registry;
 * Server
 *
 */
-public class ProvinceServer {
+public class Server {
     public static void main(String[] args) {
         try {
             //Create and get reference to rmi registry
             Registry registry = LocateRegistry.createRegistry(1099);
             //Instantiate server object
-            ProvinceObject po = new ProvinceObject();
+            SeatObject so = new SeatObject();
+            UserObject uo = new UserObject();
+            ReservationObject ro = new ReservationObject();
             //Register server object
-            registry.rebind("Province", po);
-            System.out.println("ProvinceServer is created!!!");
+            registry.rebind("Seat", so);
+            registry.rebind("User", uo);
+            registry.rebind("Reservation", ro);
+            System.out.println("Server is created!!!");
         } catch (Exception e) {
             System.out.println(e);
         }

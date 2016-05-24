@@ -59,7 +59,6 @@ public class SeatRepository {
                 s.setId(rs.getInt("id"));
                 s.setName(rs.getString("name"));
                 s.setStatus(rs.getString("status"));
-                s.setTimestamp(rs.getTimestamp("timestamp"));
                 arr.add(s);
             }
             stmt.close();
@@ -82,7 +81,6 @@ public class SeatRepository {
                 s.setId(rs.getInt("id"));
                 s.setName(rs.getString("name"));
                 s.setStatus(rs.getString("status"));
-                s.setTimestamp(rs.getTimestamp("timestamp"));
                 arr.add(s);
             }
             pstmt.close();

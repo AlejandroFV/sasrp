@@ -47,7 +47,6 @@ CREATE TABLE IF NOT EXISTS `tbl_seat` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(3) NOT NULL,
   `status` enum('available','in-process','reserved') NOT NULL,
-  `timestamp` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=101 ;

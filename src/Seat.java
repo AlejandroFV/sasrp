@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 import java.io.*;
-import java.sql.Timestamp;
 
 /**
  *
@@ -14,7 +13,6 @@ public class Seat implements Serializable {
     private int id;
     private String name;
     private String status;
-    private Timestamp timestamp;
 
     public Seat() {
     }
@@ -28,13 +26,6 @@ public class Seat implements Serializable {
     public Seat(String name, String status) {
         this.name = name;
         this.status = status;
-    }
-
-    public Seat(int id, String name, String status, Timestamp timestamp) {
-        this.id = id;
-        this.name = name;
-        this.status = status;
-        this.timestamp = timestamp;
     }
 
     /**
@@ -79,22 +70,8 @@ public class Seat implements Serializable {
         this.status = status;
     }
 
-    /**
-     * @return the timestamp
-     */
-    public Timestamp getTimestamp() {
-        return timestamp;
-    }
-
-    /**
-     * @param timestamp the timestamp to set
-     */
-    public void setTimestamp(Timestamp timestamp) {
-        this.timestamp = timestamp;
-    }
-
     @Override
     public String toString() {
-        return "Seat{" + "id=" + id + ", name=" + name + ", status=" + status + ", timestamp=" + timestamp + '}';
+        return "Seat{" + "id=" + id + ", name=" + name + ", status=" + status + '}';
     }
 }
